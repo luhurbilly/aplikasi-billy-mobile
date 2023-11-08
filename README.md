@@ -53,7 +53,8 @@ jalankan di terminal ```create flutter aplikasi_billy_mobile```
 di file main.dart hapus ```MyHomePage(title: 'Flutter Demo Home Page')``` menjadi ```MyHomePage()```
 di file menu.dart tambahkan teks dan card dengan menambahkan barang-barang yang dijual.
 
-```class ShopItem {
+```
+class ShopItem {
     final String name;
     final IconData icon;
                     
@@ -64,7 +65,8 @@ di file menu.dart tambahkan teks dan card dengan menambahkan barang-barang yang 
 ubah sifat widget page dari stateful menjadi stateless. Lakukan perubahan pada bagian ```({super.key, required this.title})``` menjadi ```({Key? key}) : super(key: key);```. 
 Selain itu, tambahkan barang-barang yang dijual (nama, harga, dan icon barang tersebut) dengan code berikut:
 
-```final List<ShopItem> items = [
+```
+final List<ShopItem> items = [
     ShopItem("Lihat Item", Icons.checklist),
     ShopItem("Tambah Item", Icons.add_shopping_cart),
     ShopItem("Logout", Icons.logout),
@@ -77,7 +79,8 @@ kemudian ubah method @override Widget build(BuildContext context) dan Tampilkan 
 
 di file menu.dart pada class ShopCard extends StatelessWidget tambahkan pada method override jadi seperti ini
 
-```@override
+```
+@override
 Widget build(BuildContext context){
     return Material(
         ....
