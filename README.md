@@ -58,17 +58,20 @@ di file menu.dart tambahkan teks dan card dengan menambahkan barang-barang yang 
     final IconData icon;
                     
     ShopItem(this.name, this.icon);
-}```
+}
+```
 
 ubah sifat widget page dari stateful menjadi stateless. Lakukan perubahan pada bagian ```({super.key, required this.title})``` menjadi ```({Key? key}) : super(key: key);```. 
 Selain itu, tambahkan barang-barang yang dijual (nama, harga, dan icon barang tersebut) dengan code berikut:
+
 ```final List<ShopItem> items = [
     ShopItem("Lihat Item", Icons.checklist),
     ShopItem("Tambah Item", Icons.add_shopping_cart),
     ShopItem("Logout", Icons.logout),
-    ];```
+    ];
+```
     
- kemudian ubah method @override Widget build(BuildContext context) dan Tampilkan card dengan membuat widget stateless baru:
+kemudian ubah method @override Widget build(BuildContext context) dan Tampilkan card dengan membuat widget stateless baru:
 
 3. Memunculkan Snackbar dengan tulisan
 
@@ -89,7 +92,8 @@ Widget build(BuildContext context){
             ....
         )
     )
-}```
+}
+```
 
 method diatas berguna untuk mengatur respon widget pada saat ikon dipesan dan 
 akan memunculkan pesan sesuai dengan ikon yang ditekan
