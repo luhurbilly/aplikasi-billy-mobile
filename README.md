@@ -1,3 +1,23 @@
+## TUGAS 9
+
+- Memastikan deployment proyek tugas Django kamu telah berjalan dengan baik.
+- Membuat halaman login pada proyek tugas Flutter.
+- Mengintegrasikan sistem autentikasi Django dengan proyek tugas Flutter.
+- Membuat model kustom sesuai dengan proyek aplikasi Django.
+- Membuat halaman yang berisi daftar semua item yang terdapat pada endpoint JSON di Django yang telah kamu deploy.
+- Tampilkan name, amount, dan description dari masing-masing item pada halaman ini.
+- Membuat halaman detail untuk setiap item yang terdapat pada halaman daftar Item.
+- Halaman ini dapat diakses dengan menekan salah satu item pada halaman daftar Item.
+- Tampilkan seluruh atribut pada model item kamu pada halaman ini.
+- Tambahkan tombol untuk kembali ke halaman daftar item.
+- Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+- Jelaskan fungsi dari CookieRequest dan jelaskan mengapa instance CookieRequest perlu untuk dibagikan ke semua komponen di aplikasi Flutter.
+- Jelaskan mekanisme pengambilan data dari JSON hingga dapat ditampilkan pada Flutter.
+- Jelaskan mekanisme autentikasi dari input data akun pada Flutter ke Django hingga selesainya proses autentikasi oleh Django dan tampilnya menu pada Flutter.
+- Sebutkan seluruh widget yang kamu pakai pada tugas ini dan jelaskan fungsinya masing-masing.
+- Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step! (bukan hanya sekadar mengikuti tutorial).
+
+
 ## TUGAS 8
 - Jelaskan perbedaan antara Navigator.push() dan Navigator.pushReplacement(), disertai dengan contoh mengenai penggunaan kedua metode tersebut yang tepat!
 
@@ -110,8 +130,6 @@ buat file baru dengan nama ```left_drawer.dart``` dalam folder widgets
   - Ketika memiih opsi (Tambah Item), maka aplikasi akan mengarahkan pengguna ke halaman form tambah item baru.
 
   tambahkan on Tap pada ListTile dengan title "Tambah Item", yang kemudian mengarahkan ke route ShopFormPage() dengan pushReplacement()
-
-
 
 ## Tugas 7
 
