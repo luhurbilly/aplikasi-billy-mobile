@@ -51,7 +51,7 @@ class _ItemPageState extends State<ItemPage> {
                   return const Column(
                     children: [
                       Text(
-                        "Tidak ada data produk.",
+                        "Tidak ada data item.",
                         style:
                         TextStyle(color: Color(0xff59A5D8), fontSize: 20),
                       ),
@@ -77,7 +77,7 @@ class _ItemPageState extends State<ItemPage> {
                               ),
                             ),
                             const SizedBox(height: 10),
-                            Text("${snapshot.data![index].fields.price}"),
+                            Text("${snapshot.data![index].fields.amount}"),
                             const SizedBox(height: 10),
                             Text(
                                 "${snapshot.data![index].fields.description}")
